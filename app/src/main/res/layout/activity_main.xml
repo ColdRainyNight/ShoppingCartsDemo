@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_radioButton_tab1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/selector1"
+            android:gravity="center"
+            android:tag="0"
+            android:text="月光茶人"
+            android:textColor="@drawable/selector_clor2"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/main_radioButton_tab2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector2"
+            android:gravity="center"
+            android:tag="1"
+            android:text="优惠"
+            android:textColor="@drawable/selector_clor2"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/main_radioButton_tab3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector3"
+            android:gravity="center"
+            android:tag="2"
+            android:text="购物车"
+            android:textColor="@drawable/selector_clor2"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/main_radioButton_tab4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector4"
+            android:gravity="center"
+            android:tag="3"
+            android:text="我的"
+            android:textColor="@drawable/selector_clor2"
+            android:textSize="15sp"/>
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg"></FrameLayout>
+
+
+</RelativeLayout>

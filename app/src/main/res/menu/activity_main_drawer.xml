@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:src="@color/grey_300">
+        <item
+            android:id="@+id/nav_youhui"
+            android:icon="@drawable/newcare_tabbar"
+            android:title="优惠红包"/>
+        <item
+            android:id="@+id/nav_shoucang"
+            android:icon="@drawable/mz_favicon_toolbar"
+            android:title="我的收藏"/>
+        <item
+            android:id="@+id/nav_liulan"
+            android:icon="@drawable/seclect_item_history"
+            android:title="最近浏览"/>
+    </group>
+
+
+    <group android:src="@color/grey_300">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/locationicon_feed"
+                android:title="店址导航"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/mz_favicon_toolbar"
+                android:title="关于我们"/>
+            <item
+                android:id="@+id/nav_shezhi"
+                android:icon="@drawable/tabbar_icon_set"
+                android:title="设置"/>
+        </menu>
+    </group>
+
+</menu>
